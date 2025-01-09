@@ -43,7 +43,7 @@ public class TestCaseUI {
     }
 
     @Test
-    public void Test3() throws InterruptedException {
+    public void Test3() {
         driver.get("https://www.rediff.com/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.findElement(By.xpath("//a[contains(@title,'Sign in')]")).click();
