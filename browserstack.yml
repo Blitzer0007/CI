@@ -14,7 +14,7 @@ platforms:
     osVersion: 10
     browserName: Edge
     browserVersion: latest-beta
-parallelsPerPlatform: 0
+parallelsPerPlatform: 1
 browserstackLocal: true
 browserStackLocalOptions:
     forceLocal: true
