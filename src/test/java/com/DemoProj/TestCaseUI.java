@@ -5,23 +5,50 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
+import java.util.HashMap;
 
 public class TestCaseUI {
 
     public static WebDriver driver;
 
+//    @BeforeMethod
+//    public static void launchDriver() {
+//        driver = new ChromeDriver();
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3999));
+//        driver.manage().window().maximize();
+//    }
+
     @BeforeMethod
-    public static void launchDriver() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3999));
-        driver.manage().window().maximize();
+    public static void launchDriver() throws MalformedURLException {
+        String username = "haris_EgtWfP";
+        String accessKey = "CC1LAqsyVNJUuWqRvDNi";
+        String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
+        String local = System.getenv("BROWSERSTACK_LOCAL");
+        String Localidentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("browserName", "Chrome");
+        HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
+        browserstackOptions.put("os", "Windows");
+        browserstackOptions.put("osVersion", "10");
+        browserstackOptions.put("sessionName", "BStack Build Name: " + buildName);
+        browserstackOptions.put("local", local);
+        browserstackOptions.put("localIdentifier", Localidentifier);
+        browserstackOptions.put("seleniumVersion", "4.0.0");
+        capabilities.setCapability("bstack:options", browserstackOptions);
+
+        driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com/wd/hub"), capabilities);
     }
 
     @Test
