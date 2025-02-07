@@ -4,6 +4,7 @@
     <groupId>org.example</groupId>
     <artifactId>ContinousIntegration</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
@@ -22,38 +23,38 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
+            <version>7.7.1</version>
+            <!--<scope>test</scope>-->
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-        <dependency>
+ <!--       <dependency>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.8.0.2131</version>
-        </dependency>
+        </dependency>-->
         <!-- https://mvnrepository.com/artifact/net.rcarz/jira-client -->
-        <dependency>
+ <!--       <dependency>
             <groupId>net.rcarz</groupId>
             <artifactId>jira-client</artifactId>
             <version>0.5</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient &ndash;&gt;
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.13</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/com.google.code.gson/gson &ndash;&gt;
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
-        </dependency>
+        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-        <dependency>
+<!--        <dependency>
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
             <version>2.41.2</version>
@@ -63,16 +64,32 @@
       <artifactId>browserstack-java-sdk</artifactId>
       <version>LATEST</version>
       <scope>compile</scope>
-    </dependency>
+    </dependency>-->
+
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/test/resources</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
             <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
+                <version>3.1.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -88,10 +105,13 @@
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
                     <!--suppress UnresolvedMavenProperty -->
+<!--
                     <argLine>-javaagent:"${com.browserstack:browserstack-java-sdk:jar}"</argLine>
+-->
                 </configuration>
             </plugin>
-            <plugin>
+
+  <!--          <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
         <version>3.3.0</version>
         <executions>
@@ -102,7 +122,37 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
+            <plugin>
+                <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>2.5.3</version>
+               <configuration>
+                 <descriptors>
+                       <descriptor>src/main/assembly/test-jar-with-dependencies.xml</descriptor>
+                   </descriptors>
+<!--
+                   <descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs>
+-->
+
+                   <archive>
+                       <manifest>
+                           <addClasspath>true</addClasspath>
+                           <mainClass>Runner.TestRunner</mainClass>
+                       </manifest>
+                   </archive>
+               </configuration>
+<executions>
+    <execution>
+        <id>make-assembly</id>
+        <phase>package</phase>
+        <goals>
+            <goal>single</goal>
+        </goals>
+    </execution>
+</executions>
+            </plugin>
         </plugins>
     </build>
 </project>

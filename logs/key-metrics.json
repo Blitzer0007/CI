@@ -1,0 +1,14 @@
+[ {
+  "duration" : 2654.271299958229,
+  "eventName" : "sdk:automate:hub-management",
+  "startTime" : 9.552528440959E8,
+  "success" : true,
+  "worker" : 1,
+  "failure" : null,
+  "details" : null,
+  "entryType" : "measure",
+  "platform" : 0,
+  "command" : null,
+  "testName" : null,
+  "hookType" : ""
+} ]

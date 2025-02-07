@@ -1,0 +1,278 @@
+07:32:38.992 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+07:32:39.006 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+07:32:39.668 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+07:32:39.670 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+07:32:39.880 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+07:32:39.905 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+07:32:40.909 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+07:32:46.972 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+07:32:54.587 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+07:33:10.790 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+07:34:43.305 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/f0sfh2fu31u9vbcuquxvxxwcxhanzh45kuibj7to to view build report, insights, and many more debugging information all at one place!
+
+07:34:43.305 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+07:34:50.081 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/65162870f4f2adce1162fafe016eeff2d643564a
+07:34:50.081 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+07:45:17.299 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+07:45:17.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+07:45:17.771 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+07:45:17.772 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+07:45:17.902 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+07:45:17.909 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+07:45:18.425 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+07:45:24.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+07:45:28.116 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+07:45:36.017 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+07:47:15.102 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/skbbqxzlyfwuic0tl6qbjl4ezxf62ybvjg71f70e to view build report, insights, and many more debugging information all at one place!
+
+07:47:15.102 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+07:47:22.288 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/743dfd8094532edfe17e9f6d0c01fda9baeb8e91
+07:47:22.288 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:04:40.118 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+08:04:40.123 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:04:40.372 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+08:04:40.373 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+08:04:40.446 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:04:40.454 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+08:04:41.290 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+08:04:47.758 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:04:50.883 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:05:00.774 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:05:12.559 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ice1spocqu9sgnmtkgzkccqpqq58rteirse92oll to view build report, insights, and many more debugging information all at one place!
+
+08:05:12.559 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:06:19.365 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+08:06:19.369 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:06:19.579 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+08:06:19.580 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+08:06:19.639 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:06:19.647 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+08:06:20.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+08:06:26.301 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:06:29.171 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:06:37.079 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:06:43.699 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xgxjjkx7tmrvxmderd4izlws4ktv4drbfucf3nip to view build report, insights, and many more debugging information all at one place!
+
+08:06:43.699 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:08:15.059 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+08:08:15.062 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:08:15.266 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+08:08:15.268 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+08:08:15.327 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:08:15.334 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+08:08:15.639 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+08:08:20.794 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:08:24.575 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:08:32.141 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:10:20.658 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tlteqykzyaosvkfwjviw3b35opshka1f1e17hmwb to view build report, insights, and many more debugging information all at one place!
+
+08:10:20.659 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:10:27.354 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/2d235dfa8896c8370593abaf4e94d064e36d1973
+08:10:27.355 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:48.813 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+08:21:48.815 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:21:48.979 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+08:21:48.980 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+08:21:49.028 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:21:49.033 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+08:21:49.313 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+08:21:52.468 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:55.357 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:22:01.009 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:22:06.985 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/lgm5xcsyephiodgmxbiz4rd6d2rekv8zthbq27vb to view build report, insights, and many more debugging information all at one place!
+
+08:22:06.985 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:02:06.099 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+09:02:06.103 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:02:06.276 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+09:02:06.277 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+09:02:06.326 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:02:06.332 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+09:02:06.837 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:02:10.181 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:02:13.756 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:02:19.713 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:04:03.837 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ld3vewooqh8pntmydowqwew3sclqyc8xdeh3bqtp to view build report, insights, and many more debugging information all at one place!
+
+09:04:03.837 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:04:09.121 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8970e9e1248b3053f6fdbc151e1cbe76da666d1d
+09:04:09.121 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:04:33.135 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+09:04:33.149 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:04:33.345 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+09:04:33.346 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+09:04:33.396 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:04:33.407 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+09:04:33.677 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:04:37.298 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:04:39.419 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:04:44.700 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:32:48.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+10:32:48.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+10:32:48.191 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+10:32:48.192 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+10:32:48.242 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:32:48.248 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:32:48.467 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+10:32:51.459 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:32:52.841 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:32:59.150 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:35:35.446 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ff5rzdk5mjh2vyxiydzelkfgk6iwndpccnbewzeo to view build report, insights, and many more debugging information all at one place!
+
+10:35:35.446 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:35:40.619 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5b4b69e0ff1d9d938a885f208960bababf9940e5
+10:35:40.619 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:37:21.297 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+10:37:21.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+10:37:21.694 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+10:37:21.696 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+10:37:21.800 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:37:21.816 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:37:22.705 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+10:37:25.823 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:37:28.219 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:37:44.994 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:59:31.779 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+20:59:31.787 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:59:32.087 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, idea.version=2024.1.4, user.dir=C\:\\Users\\harishkannan.sukumar\\IdeaProjects\\ContinousIntegration, localrepository=C\:\\Users\\harishkannan.sukumar\\.m2\\repository}
+20:59:32.088 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+20:59:32.173 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:59:32.185 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:59:36.522 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:59:41.481 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:59:44.672 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:59:56.734 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:08:09.550 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+23:08:09.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:08:09.801 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+23:08:09.803 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\browserstack.yml
+23:08:09.883 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:08:09.894 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:08:10.920 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:08:17.050 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:08:20.326 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:08:30.023 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:08:50.518 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+23:08:50.800 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vb9ye7lxahqpgrsmbitjtqr4ioyjs0hqeufgofto to view build report, insights, and many more debugging information all at one place!
+
+23:08:50.801 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:00:47.977 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+09:00:48.130 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\logs\key-metrics.json
+09:00:50.258 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product:
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.utils.FunnelInstrumentation.a(Unknown Source)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at com.browserstack.utils.FunnelInstrumentation.getProducts(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+09:00:50.267 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+09:00:50.333 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+09:00:50.366 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+09:00:50.375 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"b523fd09-4093-4122-a92b-7574cdaff9d7","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"INDPRFTCPL1147","measures":{"sdk:pre-test":0.01549983024597168},"productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionStatus":false,"skipSessionName":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Windows 10","languageVersion":"21.0.5","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"null"}}
+09:00:50.844 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+09:00:50.846 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\logs\key-metrics.json
+09:01:05.290 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+09:01:05.428 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\logs\key-metrics.json
+09:01:07.412 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product:
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.utils.FunnelInstrumentation.a(Unknown Source)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at com.browserstack.utils.FunnelInstrumentation.getProducts(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+09:01:07.417 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+09:01:07.460 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+09:01:07.488 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+09:01:07.495 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"2f1a16d1-45f9-4dc9-9439-43df58e4317a","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"INDPRFTCPL1147","measures":{"sdk:pre-test":0.01009988784790039},"productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Windows 10","languageVersion":"21.0.5","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"null"}}
+09:01:07.881 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+09:01:07.890 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\logs\key-metrics.json
+09:02:28.883 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+09:02:29.017 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\logs\key-metrics.json
+09:02:44.364 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product:
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.utils.FunnelInstrumentation.a(Unknown Source)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at com.browserstack.utils.FunnelInstrumentation.getProducts(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+09:02:44.369 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+09:02:44.414 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+09:02:44.447 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+09:02:44.454 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"31f34a62-bd0f-4d34-a514-2ed5b5e57c72","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"INDPRFTCPL1147","measures":{"sdk:pre-test":0.01399993896484375},"productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Windows 10","languageVersion":"21.0.5","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"null"}}
+09:02:45.026 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+09:02:45.032 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\harishkannan.sukumar\IdeaProjects\ContinousIntegration\logs\key-metrics.json
