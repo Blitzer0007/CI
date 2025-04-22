@@ -2,14 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test name="Test">
+
+        <parameter name="environment" value="${env}" />
+        <parameter name="methodName" value="${methodName}" />
+        <parameter name="methodName" value="${methodName}" />
+
         <classes>
             <class name="Demo.TestCaseUI">
-                <methods>
-                    <include name="Test1"/>
-                    <include name="Test2"/>
-                    <include name="Test3"/>
-                </methods>
             </class>
+            <!--<class name="Demo.TestCaseUI1">
+        </class>-->
         </classes>
     </test>
 </suite>

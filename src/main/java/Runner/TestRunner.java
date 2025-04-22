@@ -22,7 +22,12 @@ public class TestRunner {
         // Run the tests
         testng.run();
 //java -jar ContinousIntegration-1.0-SNAPSHOT-jar-with-dependencies.jar
+        //java -jar ContinousIntegration-1.0-SNAPSHOT-test-jar-with-dependencies.jar
         //java -cp ContinousIntegration-1.0-SNAPSHOT-tests.jar Demo.TestCaseUI
+    //java -Denvironment=RT -DgroupName=Test1 -jar ContinousIntegration-1.0-SNAPSHOT-test-jar-with-dependencies.jar
+    //java -Denvironment=RT -DgroupToRun=Test1 -jar ContinousIntegration-1.0-SNAPSHOT-test-jar-with-dependencies.jar
+    //java -Denvironment=RT -DmethodName=Test1 -jar ContinousIntegration-1.0-SNAPSHOT-test-jar-with-dependencies.jar
+    //java -Denvironment=RT -DmethodName=Test1,Test2 -jar ContinousIntegration-1.0-SNAPSHOT-test-jar-with-dependencies.jar
     }
 
 }
