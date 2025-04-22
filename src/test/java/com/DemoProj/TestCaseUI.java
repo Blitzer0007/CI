@@ -1,9 +1,11 @@
 package com.DemoProj;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -17,14 +19,19 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
+import java.util.UUID;
 
 public class TestCaseUI {
 
-    public static WebDriver driver;
+    public  WebDriver driver;
 
     @BeforeMethod
-    public static void launchDriver() {
-        driver = new ChromeDriver();
+    public  void launchDriver() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        String uniqueDir = "/tmp/chrome_user_data_" + UUID.randomUUID().toString();
+        options.addArguments("--user-data-dir=" + uniqueDir);
+        driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3999));
         driver.manage().window().maximize();
     }
@@ -53,7 +60,7 @@ public class TestCaseUI {
 
     @Test
     public void Test1() {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.get("http://demo.guru99.com/test/drag_drop.html");
         wait.until(ExpectedConditions.urlMatches("https://demo.guru99.com/test/drag_drop.html"));
         Actions builder = new Actions(driver);
@@ -84,7 +91,7 @@ public class TestCaseUI {
 //    }
 
     @AfterMethod
-    public void close(){
+    public void close() {
         driver.close();
         driver.quit();
     }
