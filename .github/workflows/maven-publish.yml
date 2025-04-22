@@ -20,6 +20,16 @@ jobs:
           java-version: '20'
           distribution: 'temurin'
 
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+          
+      - name: Kill lingering browser processes
+        run: |
+          pkill -f "chrome" || true
+          pkill -f "chromedriver" || true
+
       - name: Cache Maven dependencies
         uses: actions/cache@v3
         with:
