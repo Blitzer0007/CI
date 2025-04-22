@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.26.0</version>
+            <version>4.30.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
@@ -88,7 +88,9 @@
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
                     <!--suppress UnresolvedMavenProperty -->
+<!--
                     <argLine>-javaagent:"${com.browserstack:browserstack-java-sdk:jar}"</argLine>
+-->
                 </configuration>
             </plugin>
             <plugin>

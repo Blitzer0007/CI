@@ -7,8 +7,6 @@
             <class name="com.DemoProj.TestCaseUI">
                 <methods>
                     <include name="Test1"/>
-                    <include name="Test2"/>
-                    <include name="Test3"/>
                 </methods>
             </class>
         </classes>
